@@ -14,6 +14,7 @@
 		E8A3AAFF1FAD4E4A00CBAF4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8A3AAFD1FAD4E4A00CBAF4D /* LaunchScreen.storyboard */; };
 		E8A3AB0A1FAD4E4A00CBAF4D /* JSAlertLabelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A3AB091FAD4E4A00CBAF4D /* JSAlertLabelTests.swift */; };
 		E8A3AB151FAD4E4B00CBAF4D /* JSAlertLabelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A3AB141FAD4E4B00CBAF4D /* JSAlertLabelUITests.swift */; };
+		E8A3AB231FAD4E5D00CBAF4D /* JSAlertLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A3AB221FAD4E5D00CBAF4D /* JSAlertLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E8A3AB101FAD4E4B00CBAF4D /* JSAlertLabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSAlertLabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8A3AB141FAD4E4B00CBAF4D /* JSAlertLabelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSAlertLabelUITests.swift; sourceTree = "<group>"; };
 		E8A3AB161FAD4E4B00CBAF4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8A3AB221FAD4E5D00CBAF4D /* JSAlertLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSAlertLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				E8A3AAF41FAD4E4A00CBAF4D /* AppDelegate.swift */,
 				E8A3AAF61FAD4E4A00CBAF4D /* ViewController.swift */,
+				E8A3AB221FAD4E5D00CBAF4D /* JSAlertLabel.swift */,
 				E8A3AAF81FAD4E4A00CBAF4D /* Main.storyboard */,
 				E8A3AAFB1FAD4E4A00CBAF4D /* Assets.xcassets */,
 				E8A3AAFD1FAD4E4A00CBAF4D /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8A3AAF71FAD4E4A00CBAF4D /* ViewController.swift in Sources */,
+				E8A3AB231FAD4E5D00CBAF4D /* JSAlertLabel.swift in Sources */,
 				E8A3AAF51FAD4E4A00CBAF4D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

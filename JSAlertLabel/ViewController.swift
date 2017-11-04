@@ -9,10 +9,14 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    lazy var alertLabel = JSAlertLabel()
+    @IBOutlet weak var testButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        testButton.layer.cornerRadius = 3
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +24,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func testButtonTapped(_ sender: Any) {
+        alertLabel.show(text: "你好", onView: view, removeAfter: 1.5  )
+    }
+    
 }
 
