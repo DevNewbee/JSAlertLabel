@@ -1,18 +1,21 @@
 # JSAlertLabel
+![Build Pass](https://img.shields.io/travis/rust-lang/rust.svg)
+![Language](https://img.shields.io/badge/swift-4.0-orange.svg)
+
+## Example
+
 ![Demo](https://github.com/DevNewbee/JSAlertLabel/blob/master/AlertLabelDemo.gif)
 
-## 使用 Usage
+## Usage
+1. Set the appearence with methods and properties available in UILabel.   
+2. Tap anywhere in the screen to immediately remove the alert lavel.
 
-可以用UILabel的各种属性来设置   
->Set the appearence with method and property available in UILabel.
-
-### 初始化 
+### Initialization 
     lazy var alertLabel = JSAlertLabel()  //Initial a JSAlertLabel 
     
-### 显示
-调用`show(text:onView:removeAfter:)`方法即可
+### Show
+Simply Call show(text:onView:removeAfter:)
 
-    alertLabel.show(text: "你好", onView: view, removeAfter: 1.5  ) //Simply Call show(text:onView:removeAfter:)
+    alertLabel.show(text: "你好", onView: view, removeAfter: 1.5  ) 
 
-默认位置为屏幕正中间
 The defult position is set by the default initializer at the middle of the screen.
