@@ -10,13 +10,13 @@
 
 ## 使用
 
-1. 可以用UILabel的各种属性来设置   
-2.  点击屏幕任意地方可以立即移除
+- 可以用UILabel的各种属性来设置   
+- 点击屏幕任意地方可以立即移除
 
-### 初始化 
+### 1. 初始化 
     lazy var alertLabel = JSAlertLabel()  //Initial a JSAlertLabel 
     
-### 显示
+### 2. 显示
 调用`show(text:onView:removeAfter:)`方法即可
 
     alertLabel.show(text: "你好", onView: view, removeAfter: 1.5  ) //Simply Call show(text:onView:removeAfter:)
